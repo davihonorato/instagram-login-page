@@ -155,3 +155,28 @@ body {
     height: 3rem;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 768px){
+    .instagram-phone {
+        display: none;
+    }
+    .instagram-wrapper {
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    body {
+        background-color: #ffffff;
+    }
+    .instagram-login {
+        width: 100%;
+    }
+    .container {
+        border: none;
+        margin: 0;
+    }
+    .container:last-child {
+        background-color: #ffffff;
+    }
+}
